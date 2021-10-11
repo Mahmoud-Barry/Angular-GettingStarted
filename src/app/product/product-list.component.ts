@@ -6,5 +6,27 @@ import { Component } from "@angular/core";
 })
 
 export class ProductListComponent{
-    pageTitle: string = "Product List"
+    pageTitle: string = "Product List";
+    products: any[] = [
+        {
+            "productId": 2,
+            "productName": "Garden Cart",
+            "productCode": "gdn-0023",
+            "releaseDate": "March 18, 2023",
+            "description": "15 gallon capacity rolling garden cart",
+            "price": 32.99,
+            "startRating": 4.2,
+            "imageUrl":"assets/images/garden_cart.png"
+        },
+        {
+            "productId": 2,
+            "productName": "Garden Cart",
+            "productCode": "gdn-0023",
+            "releaseDate": "March 18, 2023",
+            "description": "15 gallon capacity rolling garden cart",
+            "price": 32.99,
+            "startRating": 4.2,
+            "imageUrl":"assets/images/garden_cart.png"
+        }
+    ]
 }
